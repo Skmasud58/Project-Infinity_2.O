@@ -1,74 +1,67 @@
-Nox/
-│
-├── Main.py                     # 🧩 Entry point – starts Nox AI (voice + system core)
-│
-├── config/
-│   ├── settings.py             # ⚙️ Main configuration: paths, API keys, constants
-│   ├── voice_config.py         # 🎙️ Voice settings (rate, language, TTS engine)
-│   └── system_config.py        # 🖥️ System-specific settings (OS paths, user data)
-│
-├── core/
-│   ├── brain.py                # 🧠 Nox's decision engine (intent recognition)
-│   ├── memory.py               # 🗂️ Store/retrieve long-term data (SQLite/JSON)
-│   ├── processor.py            # ⚡ Command execution and logic layer
-│   ├── context_manager.py      # 🔄 Keeps track of conversation/session state
-│   └── history_manager.py      # 📝 NEW: Manages conversation history and data persistence
-│
-├── voice/
-│   ├── listener.py             # 🎧 Speech recognition (wake word + command capture)
-│   ├── speaker.py              # 🗣️ Text-to-speech (Nox's voice)
-│   └── wakeword.py             # 👂 Wake word detection (e.g. "Hey Nox")
-│
-├── ai_modules/
-│   ├── chat/
-│   │   ├── gpt_chat.py         # 💬 Handles OpenAI/GPT API calls
-│   │   ├── emotion_analysis.py # 🫀 Detects tone/sentiment of the user
-│   │   └── context_learning.py # 🧩 Learns user preferences over time
-│   │
-│   ├── automation/
-│   │   ├── home_control.py     # 🏠 Smart home control (IoT, Wi-Fi, or IR)
-│   │   ├── whatsapp_auto.py    # 💬 Automates WhatsApp messages
-│   │   └── browser_auto.py     # 🌐 Opens/searches websites, plays YouTube
-│   │
-│   ├── productivity/
-│   │   ├── reminder.py         # ⏰ Set & manage reminders
-│   │   ├── alarm.py            # 🔔 Manage alarms
-│   │   ├── scheduler.py        # 📅 Central scheduling system
-│   │   └── notes.py            # 📝 Save and retrieve user notes
-│   │
-│   ├── system/
-│   │   ├── battery_monitor.py  # 🔋 Battery status alerts
-│   │   ├── system_info.py      # 🖥️ Get CPU, RAM, Network info
-│   │   └── app_launcher.py     # 🚀 Launch desktop applications
-│   │
-│   └── vision/
-│       ├── face_recognition.py # 👁️ Identify people using webcam
-│       ├── object_detect.py    # 🪄 Detect objects or scenes (OpenCV/YOLO)
-│       └── camera_feed.py      # 📸 Webcam control and video stream
-│
-├── data/
-│   ├── user_data.json          # 🧍 Stores user preferences and saved data
-│   ├── reminders.json          # ⏱️ Reminder and alarm records
-│   ├── conversation_history.json # 💬 NEW: Stores all conversation history
-│   ├── system_state.json       # 🏠 NEW: Current system state and context
-│   ├── logs/                   # 📜 Nox activity logs
-│   └── cache/                  # ⚡ Temporary storage for faster response
-│
-├── assets/
-│   ├── sounds/                 # 🔊 Notification tones, alert sounds
-│   ├── icons/                  # 🖼️ App icons, assistant avatars
-│   └── models/                 # 🤖 AI/ML models (voice, emotion, vision)
-│
-├── ui/
-│   ├── dashboard.py            # 💻 Visual control panel (Tkinter/Flask/React)
-│   └── status_display.py       # 📊 Shows current Nox status and logs
-│
-├── utils/
-│   ├── helper.py               # 🔧 Helper functions (time, date, formatting)
-│   ├── network.py              # 🌍 Internet connectivity checks
-│   ├── file_manager.py         # 🗃️ Read/write file utilities
-│   └── data_initializer.py     # 🆕 NEW: Initializes all required files and folders
-│
-├── requirements.txt            # 📦 Python dependencies
-├── README.md                   # 🧾 Project overview & setup guide
-└── LICENSE                     # ⚖️ License file
+Nox - Actual Folder Name..............
+main.py - Main File........
+
+config - 1st folder in Actual Folder. 
+    settings.py
+    voice_config.py
+    system_config.py
+
+core - 2nd folder in Actual Folder. 
+    brain.py
+    memory.py
+    processor.py
+    context_manager.py
+    history_manager.py
+
+voice - 3rd folder in Actual Folder. 
+    listener.py
+    speaker.py
+    wakeword.py
+
+ai_modules - 4th folder in Actual Folder. 
+    chat - 
+        gpt_chat.py
+        emotion_analysis.py
+        context_learning.py
+    automation - 5th folder in ai_modules Folder. 
+        home_control.py
+        whatsapp_auto.py
+        browser_auto.py
+    productivity -  1st folder in ai_modules Folder. 
+        reminder.py
+        alarm.py
+        scheduler.py
+        notes.py
+    system - 2nd folder in ai_modules Folder
+        battery_monitor.py
+        system_info.py
+        app_launcher.py
+    vision - 3rd folder in ai_modules Folder
+        face_recognition.py
+        object_detect.py
+        camera_feed.py
+
+data - 4th folder in Actual Folder.
+    user_data.json
+    reminders.json
+    conversation_history.json
+    system_state.json
+    logs
+    cache
+
+assets - 4th folder in Actual Folder.
+    sounds
+    icons
+    models
+
+ui - 5th folder in Actual Folder.
+    dashboard.py
+    status_display.py
+
+utils - 6th folder in Actual Folder.
+    helper.py
+    network.py
+    file_manager.py
+    data_initializer.py
+
+requirements.txt - Install all requermints....................
