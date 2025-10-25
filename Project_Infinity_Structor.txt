@@ -7,8 +7,8 @@ config - 1st folder in Actual Folder.
     system_config.py
 
 core - 2nd folder in Actual Folder. 
-    brain.py
-    memory.py
+    intelligence.py
+    data_vault.py
     processor.py
     context_manager.py
     history_manager.py
@@ -65,3 +65,4 @@ utils - 6th folder in Actual Folder.
     data_initializer.py
 
 requirements.txt - Install all requermints....................
+
